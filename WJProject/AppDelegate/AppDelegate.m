@@ -22,6 +22,7 @@
     
     //广告页
     [AppManager appStart];
+    NSLog(@"developer");
     return YES;
 }
 
