@@ -17,4 +17,5 @@
 #pragma mark ————— APP启动接口 —————
 +(void)appStart;
 
++ (void)loadIntroductoryPages;
 @end

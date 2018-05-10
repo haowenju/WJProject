@@ -11,5 +11,6 @@
 
 #define adImageName   @"adImageName"
 #define adUrl   @"adUrl"
+#define KFirstUse @"KFirstUse"
 
 #endif /* UserDefaultsMacros_h */

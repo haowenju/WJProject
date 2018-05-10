@@ -10,7 +10,7 @@
 #import "AdPageView.h"
 #import "RootWebViewController.h"
 #import "RootNavigationController.h"
-
+#import "LMJIntroductoryPagesHelper.h"
 @implementation AppManager
 
 
@@ -23,4 +23,12 @@
     adView = adView;
 }
 
+
++ (void)loadIntroductoryPages {
+    if (![kUserDefaults objectForKey:KFirstUse]) {
+        // 欢迎视图
+        [LMJIntroductoryPagesHelper showIntroductoryPageView:@[@"bg_welcome1.png", @"bg_welcome2.png", @"bg_welcome3.png"]];
+        [kUserDefaults setObject:@"1" forKey:KFirstUse];
+    }
+}
 @end

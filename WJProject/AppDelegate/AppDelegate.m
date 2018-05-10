@@ -22,6 +22,9 @@
     
     //广告页
     [AppManager appStart];
+    
+    //第一次登陆，显示引导页
+    [AppManager loadIntroductoryPages];
     NSLog(@"developer");
     return YES;
 }

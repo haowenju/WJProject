@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		115B4FB8A2317B1CA573DB31 /* libPods-WJProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF3061D01CDB7671966E57A /* libPods-WJProject.a */; };
+		190D8EBF20A4387000AB017E /* LMJIntroductoryPagesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 190D8EB720A4386F00AB017E /* LMJIntroductoryPagesHelper.m */; };
+		190D8EC020A4387000AB017E /* LMJIntroductoryPagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 190D8EB920A4386F00AB017E /* LMJIntroductoryPagesView.m */; };
+		190D8EC120A4387000AB017E /* bg_welcome3.png in Resources */ = {isa = PBXBuildFile; fileRef = 190D8EBC20A4387000AB017E /* bg_welcome3.png */; };
+		190D8EC220A4387000AB017E /* bg_welcome2.png in Resources */ = {isa = PBXBuildFile; fileRef = 190D8EBD20A4387000AB017E /* bg_welcome2.png */; };
+		190D8EC320A4387000AB017E /* bg_welcome1.png in Resources */ = {isa = PBXBuildFile; fileRef = 190D8EBE20A4387000AB017E /* bg_welcome1.png */; };
 		19249C9320688DFF00A3D1FA /* RootWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19249C9220688DFE00A3D1FA /* RootWebViewController.m */; };
 		19249C9620688E1200A3D1FA /* JSHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 19249C9520688E1200A3D1FA /* JSHandler.m */; };
 		19249C992068982300A3D1FA /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19249C982068982300A3D1FA /* WebViewController.m */; };
@@ -47,6 +52,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		190D8EB720A4386F00AB017E /* LMJIntroductoryPagesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJIntroductoryPagesHelper.m; sourceTree = "<group>"; };
+		190D8EB820A4386F00AB017E /* LMJIntroductoryPagesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJIntroductoryPagesHelper.h; sourceTree = "<group>"; };
+		190D8EB920A4386F00AB017E /* LMJIntroductoryPagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJIntroductoryPagesView.m; sourceTree = "<group>"; };
+		190D8EBA20A4387000AB017E /* LMJIntroductoryPagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJIntroductoryPagesView.h; sourceTree = "<group>"; };
+		190D8EBC20A4387000AB017E /* bg_welcome3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_welcome3.png; sourceTree = "<group>"; };
+		190D8EBD20A4387000AB017E /* bg_welcome2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_welcome2.png; sourceTree = "<group>"; };
+		190D8EBE20A4387000AB017E /* bg_welcome1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_welcome1.png; sourceTree = "<group>"; };
 		19249C9120688DFE00A3D1FA /* RootWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootWebViewController.h; sourceTree = "<group>"; };
 		19249C9220688DFE00A3D1FA /* RootWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootWebViewController.m; sourceTree = "<group>"; };
 		19249C9420688E1200A3D1FA /* JSHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSHandler.h; sourceTree = "<group>"; };
@@ -125,9 +137,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		190D8EBB20A4387000AB017E /* PLMMPRIKImages */ = {
+			isa = PBXGroup;
+			children = (
+				190D8EBC20A4387000AB017E /* bg_welcome3.png */,
+				190D8EBD20A4387000AB017E /* bg_welcome2.png */,
+				190D8EBE20A4387000AB017E /* bg_welcome1.png */,
+			);
+			path = PLMMPRIKImages;
+			sourceTree = "<group>";
+		};
 		19249C9A2068C5D500A3D1FA /* WelcomePage */ = {
 			isa = PBXGroup;
 			children = (
+				190D8EB820A4386F00AB017E /* LMJIntroductoryPagesHelper.h */,
+				190D8EB720A4386F00AB017E /* LMJIntroductoryPagesHelper.m */,
+				190D8EBA20A4387000AB017E /* LMJIntroductoryPagesView.h */,
+				190D8EB920A4386F00AB017E /* LMJIntroductoryPagesView.m */,
+				190D8EBB20A4387000AB017E /* PLMMPRIKImages */,
 			);
 			path = WelcomePage;
 			sourceTree = "<group>";
@@ -417,8 +444,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				19DB8AEF205B93BC00420A51 /* icon_tabbar_homepage_selected@2x.png in Resources */,
+				190D8EC120A4387000AB017E /* bg_welcome3.png in Resources */,
+				190D8EC320A4387000AB017E /* bg_welcome1.png in Resources */,
 				19DB8AF6205B93D000420A51 /* icon_tabbar_mine_selected@2x.png in Resources */,
 				19DB8AFD205B949E00420A51 /* tab_bar@3x.png in Resources */,
+				190D8EC220A4387000AB017E /* bg_welcome2.png in Resources */,
 				19DB8AF1205B93BC00420A51 /* icon_tabbar_homepage@2x.png in Resources */,
 				194C77DB205A0E2B00329230 /* LaunchScreen.storyboard in Resources */,
 				19DB8AEE205B93BC00420A51 /* icon_tabbar_homepage_selected.png in Resources */,
@@ -503,12 +533,14 @@
 				19DB8AE3205B718200420A51 /* RootNavigationController.m in Sources */,
 				19249C9320688DFF00A3D1FA /* RootWebViewController.m in Sources */,
 				194C77F9205A125A00329230 /* AppDelegate+PushService.m in Sources */,
+				190D8EC020A4387000AB017E /* LMJIntroductoryPagesView.m in Sources */,
 				19DB8AC4205A635F00420A51 /* RootViewController.m in Sources */,
 				194C77F6205A124200329230 /* AppDelegate+AppService.m in Sources */,
 				194C77DE205A0E2B00329230 /* main.m in Sources */,
 				19994175205F500600E19D86 /* FirstViewController.m in Sources */,
 				19249C9620688E1200A3D1FA /* JSHandler.m in Sources */,
 				194C77D0205A0E2B00329230 /* AppDelegate.m in Sources */,
+				190D8EBF20A4387000AB017E /* LMJIntroductoryPagesHelper.m in Sources */,
 				19249C992068982300A3D1FA /* WebViewController.m in Sources */,
 				19DB8ACE205B493400420A51 /* MainTabBarViewController.m in Sources */,
 				19915585205A4D2E00092744 /* AppManager.m in Sources */,
