@@ -7,12 +7,14 @@ pod 'CYLTabBarController'
 # 下拉刷新上拉加载
 pod 'MJRefresh'
 
+# 转model
+pod 'MJExtension'
+
 # 布局
 pod 'Masonry'
 
 # 网络请求
 pod 'AFNetworking'
-pod 'YTKNetwork'
 
 # 菊花
 pod 'MBProgressHUD'
@@ -35,4 +37,9 @@ pod 'SDCycleScrollView'
 # 键盘管理
 pod 'IQKeyboardManager'
 
+# 滚动视图
+pod 'SGPagingView'
+
+# 抽屉效果
+pod 'CWLateralSlide'
 end

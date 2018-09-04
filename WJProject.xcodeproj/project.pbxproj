@@ -53,6 +53,7 @@
 		19DB8AFD205B949E00420A51 /* tab_bar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19DB8AFA205B949C00420A51 /* tab_bar@3x.png */; };
 		19DB8AFE205B949E00420A51 /* tab_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19DB8AFB205B949D00420A51 /* tab_bar@2x.png */; };
 		19DB8AFF205B949E00420A51 /* tab_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 19DB8AFC205B949E00420A51 /* tab_bar.png */; };
+		845D263B213E69C900F32E16 /* UIView+Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D263A213E69C900F32E16 /* UIView+Show.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -133,6 +134,8 @@
 		2DAE2DE96D8B0AE334D6FA78 /* Pods-WJProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WJProject/Pods-WJProject.debug.xcconfig"; sourceTree = "<group>"; };
 		36094360DB33BA5B51E6124E /* Pods-WJProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WJProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-WJProject/Pods-WJProject.release.xcconfig"; sourceTree = "<group>"; };
 		3BF3061D01CDB7671966E57A /* libPods-WJProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845D2639213E69C900F32E16 /* UIView+Show.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Show.h"; sourceTree = "<group>"; };
+		845D263A213E69C900F32E16 /* UIView+Show.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Show.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,9 +208,10 @@
 				194C77EA205A0EF200329230 /* Modules */,
 				194C77E6205A0EF100329230 /* Manager */,
 				194C77E7205A0EF100329230 /* Utils */,
-				194C77E4205A0EF100329230 /* Base */,
-				194C77E8205A0EF100329230 /* ThridParty */,
+				845D2638213E699400F32E16 /* Category */,
 				194C77EC205A0EF200329230 /* Define */,
+				194C77E8205A0EF100329230 /* ThridParty */,
+				194C77E4205A0EF100329230 /* Base */,
 				194C77E9205A0EF100329230 /* Resource */,
 				194C77EB205A0EF200329230 /* Supporting Files */,
 			);
@@ -406,6 +410,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		845D2638213E699400F32E16 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				845D2639213E69C900F32E16 /* UIView+Show.h */,
+				845D263A213E69C900F32E16 /* UIView+Show.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -417,7 +430,6 @@
 				194C77C7205A0E2B00329230 /* Sources */,
 				194C77C8205A0E2B00329230 /* Frameworks */,
 				194C77C9205A0E2B00329230 /* Resources */,
-				3D34B01C094058F5EBE268F3 /* [CP] Embed Pods Frameworks */,
 				B5047D8D4F318A403695EE2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -512,21 +524,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3D34B01C094058F5EBE268F3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WJProject/Pods-WJProject-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B5047D8D4F318A403695EE2E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -564,6 +561,7 @@
 				19DB8AC4205A635F00420A51 /* RootViewController.m in Sources */,
 				194C77F6205A124200329230 /* AppDelegate+AppService.m in Sources */,
 				194C77DE205A0E2B00329230 /* main.m in Sources */,
+				845D263B213E69C900F32E16 /* UIView+Show.m in Sources */,
 				19994175205F500600E19D86 /* FirstViewController.m in Sources */,
 				19249C9620688E1200A3D1FA /* JSHandler.m in Sources */,
 				194C77D0205A0E2B00329230 /* AppDelegate.m in Sources */,

@@ -12,10 +12,13 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
-//全局宏
+// 全局宏
 #import "UtilsMacros.h"
 #import "UserDefaultsMacros.h"
 #import "CommonMacros.h"
+
+// 类目
+#import "UIView+Show.h"
 
 // 工具类
 #import "WJFileManager.h"
