@@ -48,7 +48,7 @@
 #pragma mark ————— 初始化window —————
 -(void)initWindow{
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = KWhiteColor;
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
     // 避免按钮被多次点击

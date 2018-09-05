@@ -13,8 +13,6 @@
 		190D8EC120A4387000AB017E /* bg_welcome3.png in Resources */ = {isa = PBXBuildFile; fileRef = 190D8EBC20A4387000AB017E /* bg_welcome3.png */; };
 		190D8EC220A4387000AB017E /* bg_welcome2.png in Resources */ = {isa = PBXBuildFile; fileRef = 190D8EBD20A4387000AB017E /* bg_welcome2.png */; };
 		190D8EC320A4387000AB017E /* bg_welcome1.png in Resources */ = {isa = PBXBuildFile; fileRef = 190D8EBE20A4387000AB017E /* bg_welcome1.png */; };
-		190D8EC720A44BF600AB017E /* PhotoBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 190D8EC620A44BF600AB017E /* PhotoBrowserView.m */; };
-		190D8ECA20A44FEE00AB017E /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 190D8EC920A44FEE00AB017E /* PhotoCell.m */; };
 		19249C9320688DFF00A3D1FA /* RootWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19249C9220688DFE00A3D1FA /* RootWebViewController.m */; };
 		19249C9620688E1200A3D1FA /* JSHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 19249C9520688E1200A3D1FA /* JSHandler.m */; };
 		19249C992068982300A3D1FA /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19249C982068982300A3D1FA /* WebViewController.m */; };
@@ -56,6 +54,19 @@
 		845D263B213E69C900F32E16 /* UIView+Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D263A213E69C900F32E16 /* UIView+Show.m */; };
 		845D2641213F828700F32E16 /* YZTagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D263E213F828700F32E16 /* YZTagButton.m */; };
 		845D2642213F828700F32E16 /* YZTagList.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D2640213F828700F32E16 /* YZTagList.m */; };
+		845D265E213FABBA00F32E16 /* LBXPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D2645213FABBA00F32E16 /* LBXPermission.m */; };
+		845D265F213FABBA00F32E16 /* LBXPermissionCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D2647213FABBA00F32E16 /* LBXPermissionCalendar.m */; };
+		845D2660213FABBA00F32E16 /* LBXPermissionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D2649213FABBA00F32E16 /* LBXPermissionCamera.m */; };
+		845D2661213FABBA00F32E16 /* LBXPermissionContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D264B213FABBA00F32E16 /* LBXPermissionContacts.m */; };
+		845D2662213FABBA00F32E16 /* LBXPermissionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D264D213FABBA00F32E16 /* LBXPermissionData.m */; };
+		845D2663213FABBA00F32E16 /* LBXPermissionHealth.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D264F213FABBA00F32E16 /* LBXPermissionHealth.m */; };
+		845D2664213FABBA00F32E16 /* LBXPermissionLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D2651213FABBA00F32E16 /* LBXPermissionLocation.m */; };
+		845D2665213FABBA00F32E16 /* LBXPermissionMicrophone.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D2653213FABBA00F32E16 /* LBXPermissionMicrophone.m */; };
+		845D2666213FABBA00F32E16 /* LBXPermissionNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D2655213FABBA00F32E16 /* LBXPermissionNet.m */; };
+		845D2667213FABBA00F32E16 /* LBXPermissionPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D2657213FABBA00F32E16 /* LBXPermissionPhotos.m */; };
+		845D2668213FABBA00F32E16 /* LBXPermissionReminders.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D2659213FABBA00F32E16 /* LBXPermissionReminders.m */; };
+		845D2669213FABBA00F32E16 /* LBXPermissionSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D265B213FABBA00F32E16 /* LBXPermissionSetting.m */; };
+		845D266A213FABBA00F32E16 /* NetReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D265D213FABBA00F32E16 /* NetReachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,10 +77,6 @@
 		190D8EBC20A4387000AB017E /* bg_welcome3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_welcome3.png; sourceTree = "<group>"; };
 		190D8EBD20A4387000AB017E /* bg_welcome2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_welcome2.png; sourceTree = "<group>"; };
 		190D8EBE20A4387000AB017E /* bg_welcome1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_welcome1.png; sourceTree = "<group>"; };
-		190D8EC520A44BF600AB017E /* PhotoBrowserView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoBrowserView.h; sourceTree = "<group>"; };
-		190D8EC620A44BF600AB017E /* PhotoBrowserView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowserView.m; sourceTree = "<group>"; };
-		190D8EC820A44FEE00AB017E /* PhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
-		190D8EC920A44FEE00AB017E /* PhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
 		19249C9120688DFE00A3D1FA /* RootWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootWebViewController.h; sourceTree = "<group>"; };
 		19249C9220688DFE00A3D1FA /* RootWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootWebViewController.m; sourceTree = "<group>"; };
 		19249C9420688E1200A3D1FA /* JSHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSHandler.h; sourceTree = "<group>"; };
@@ -142,6 +149,32 @@
 		845D263E213F828700F32E16 /* YZTagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTagButton.m; sourceTree = "<group>"; };
 		845D263F213F828700F32E16 /* YZTagList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTagList.h; sourceTree = "<group>"; };
 		845D2640213F828700F32E16 /* YZTagList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTagList.m; sourceTree = "<group>"; };
+		845D2644213FABBA00F32E16 /* LBXPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermission.h; sourceTree = "<group>"; };
+		845D2645213FABBA00F32E16 /* LBXPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermission.m; sourceTree = "<group>"; };
+		845D2646213FABBA00F32E16 /* LBXPermissionCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionCalendar.h; sourceTree = "<group>"; };
+		845D2647213FABBA00F32E16 /* LBXPermissionCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionCalendar.m; sourceTree = "<group>"; };
+		845D2648213FABBA00F32E16 /* LBXPermissionCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionCamera.h; sourceTree = "<group>"; };
+		845D2649213FABBA00F32E16 /* LBXPermissionCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionCamera.m; sourceTree = "<group>"; };
+		845D264A213FABBA00F32E16 /* LBXPermissionContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionContacts.h; sourceTree = "<group>"; };
+		845D264B213FABBA00F32E16 /* LBXPermissionContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionContacts.m; sourceTree = "<group>"; };
+		845D264C213FABBA00F32E16 /* LBXPermissionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionData.h; sourceTree = "<group>"; };
+		845D264D213FABBA00F32E16 /* LBXPermissionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionData.m; sourceTree = "<group>"; };
+		845D264E213FABBA00F32E16 /* LBXPermissionHealth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionHealth.h; sourceTree = "<group>"; };
+		845D264F213FABBA00F32E16 /* LBXPermissionHealth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionHealth.m; sourceTree = "<group>"; };
+		845D2650213FABBA00F32E16 /* LBXPermissionLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionLocation.h; sourceTree = "<group>"; };
+		845D2651213FABBA00F32E16 /* LBXPermissionLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionLocation.m; sourceTree = "<group>"; };
+		845D2652213FABBA00F32E16 /* LBXPermissionMicrophone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionMicrophone.h; sourceTree = "<group>"; };
+		845D2653213FABBA00F32E16 /* LBXPermissionMicrophone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionMicrophone.m; sourceTree = "<group>"; };
+		845D2654213FABBA00F32E16 /* LBXPermissionNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionNet.h; sourceTree = "<group>"; };
+		845D2655213FABBA00F32E16 /* LBXPermissionNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionNet.m; sourceTree = "<group>"; };
+		845D2656213FABBA00F32E16 /* LBXPermissionPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionPhotos.h; sourceTree = "<group>"; };
+		845D2657213FABBA00F32E16 /* LBXPermissionPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionPhotos.m; sourceTree = "<group>"; };
+		845D2658213FABBA00F32E16 /* LBXPermissionReminders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionReminders.h; sourceTree = "<group>"; };
+		845D2659213FABBA00F32E16 /* LBXPermissionReminders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionReminders.m; sourceTree = "<group>"; };
+		845D265A213FABBA00F32E16 /* LBXPermissionSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXPermissionSetting.h; sourceTree = "<group>"; };
+		845D265B213FABBA00F32E16 /* LBXPermissionSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionSetting.m; sourceTree = "<group>"; };
+		845D265C213FABBA00F32E16 /* NetReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetReachability.h; sourceTree = "<group>"; };
+		845D265D213FABBA00F32E16 /* NetReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetReachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,17 +197,6 @@
 				190D8EBE20A4387000AB017E /* bg_welcome1.png */,
 			);
 			path = PLMMPRIKImages;
-			sourceTree = "<group>";
-		};
-		190D8EC420A44BAF00AB017E /* PhotoBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				190D8EC520A44BF600AB017E /* PhotoBrowserView.h */,
-				190D8EC620A44BF600AB017E /* PhotoBrowserView.m */,
-				190D8EC820A44FEE00AB017E /* PhotoCell.h */,
-				190D8EC920A44FEE00AB017E /* PhotoCell.m */,
-			);
-			path = PhotoBrowser;
 			sourceTree = "<group>";
 		};
 		19249C9A2068C5D500A3D1FA /* WelcomePage */ = {
@@ -261,7 +283,7 @@
 		194C77E7205A0EF100329230 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				190D8EC420A44BAF00AB017E /* PhotoBrowser */,
+				845D2643213FABBA00F32E16 /* LBXPermissions */,
 				19DB8ADD205B5DCF00420A51 /* MBProgressHUD */,
 				194C77FA205A383F00329230 /* AdPage */,
 				19249C9A2068C5D500A3D1FA /* WelcomePage */,
@@ -437,6 +459,39 @@
 			path = YZTagList;
 			sourceTree = "<group>";
 		};
+		845D2643213FABBA00F32E16 /* LBXPermissions */ = {
+			isa = PBXGroup;
+			children = (
+				845D2644213FABBA00F32E16 /* LBXPermission.h */,
+				845D2645213FABBA00F32E16 /* LBXPermission.m */,
+				845D2646213FABBA00F32E16 /* LBXPermissionCalendar.h */,
+				845D2647213FABBA00F32E16 /* LBXPermissionCalendar.m */,
+				845D2648213FABBA00F32E16 /* LBXPermissionCamera.h */,
+				845D2649213FABBA00F32E16 /* LBXPermissionCamera.m */,
+				845D264A213FABBA00F32E16 /* LBXPermissionContacts.h */,
+				845D264B213FABBA00F32E16 /* LBXPermissionContacts.m */,
+				845D264C213FABBA00F32E16 /* LBXPermissionData.h */,
+				845D264D213FABBA00F32E16 /* LBXPermissionData.m */,
+				845D264E213FABBA00F32E16 /* LBXPermissionHealth.h */,
+				845D264F213FABBA00F32E16 /* LBXPermissionHealth.m */,
+				845D2650213FABBA00F32E16 /* LBXPermissionLocation.h */,
+				845D2651213FABBA00F32E16 /* LBXPermissionLocation.m */,
+				845D2652213FABBA00F32E16 /* LBXPermissionMicrophone.h */,
+				845D2653213FABBA00F32E16 /* LBXPermissionMicrophone.m */,
+				845D2654213FABBA00F32E16 /* LBXPermissionNet.h */,
+				845D2655213FABBA00F32E16 /* LBXPermissionNet.m */,
+				845D2656213FABBA00F32E16 /* LBXPermissionPhotos.h */,
+				845D2657213FABBA00F32E16 /* LBXPermissionPhotos.m */,
+				845D2658213FABBA00F32E16 /* LBXPermissionReminders.h */,
+				845D2659213FABBA00F32E16 /* LBXPermissionReminders.m */,
+				845D265A213FABBA00F32E16 /* LBXPermissionSetting.h */,
+				845D265B213FABBA00F32E16 /* LBXPermissionSetting.m */,
+				845D265C213FABBA00F32E16 /* NetReachability.h */,
+				845D265D213FABBA00F32E16 /* NetReachability.m */,
+			);
+			path = LBXPermissions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -569,33 +624,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				190D8ECA20A44FEE00AB017E /* PhotoCell.m in Sources */,
+				845D2663213FABBA00F32E16 /* LBXPermissionHealth.m in Sources */,
 				194C7801205A401200329230 /* WJFileManager.m in Sources */,
 				19DB8AE9205B92C000420A51 /* MineViewController.m in Sources */,
 				19DB8AE3205B718200420A51 /* RootNavigationController.m in Sources */,
 				19249C9320688DFF00A3D1FA /* RootWebViewController.m in Sources */,
 				194C77F9205A125A00329230 /* AppDelegate+PushService.m in Sources */,
 				190D8EC020A4387000AB017E /* LMJIntroductoryPagesView.m in Sources */,
+				845D2668213FABBA00F32E16 /* LBXPermissionReminders.m in Sources */,
 				19DB8AC4205A635F00420A51 /* RootViewController.m in Sources */,
 				194C77F6205A124200329230 /* AppDelegate+AppService.m in Sources */,
 				194C77DE205A0E2B00329230 /* main.m in Sources */,
+				845D2661213FABBA00F32E16 /* LBXPermissionContacts.m in Sources */,
+				845D265E213FABBA00F32E16 /* LBXPermission.m in Sources */,
 				845D263B213E69C900F32E16 /* UIView+Show.m in Sources */,
 				19994175205F500600E19D86 /* FirstViewController.m in Sources */,
+				845D2660213FABBA00F32E16 /* LBXPermissionCamera.m in Sources */,
 				19249C9620688E1200A3D1FA /* JSHandler.m in Sources */,
 				194C77D0205A0E2B00329230 /* AppDelegate.m in Sources */,
 				190D8EBF20A4387000AB017E /* LMJIntroductoryPagesHelper.m in Sources */,
+				845D2662213FABBA00F32E16 /* LBXPermissionData.m in Sources */,
 				19249C992068982300A3D1FA /* WebViewController.m in Sources */,
 				19DB8ACE205B493400420A51 /* MainTabBarViewController.m in Sources */,
 				19915585205A4D2E00092744 /* AppManager.m in Sources */,
 				1999417B2060B17100E19D86 /* SecondViewController.m in Sources */,
+				845D2666213FABBA00F32E16 /* LBXPermissionNet.m in Sources */,
 				19DB8AE0205B5DD000420A51 /* MBProgressHUD+XY.m in Sources */,
+				845D2667213FABBA00F32E16 /* LBXPermissionPhotos.m in Sources */,
 				19DB8ADC205B5BCC00420A51 /* IMManager.m in Sources */,
+				845D2665213FABBA00F32E16 /* LBXPermissionMicrophone.m in Sources */,
 				845D2641213F828700F32E16 /* YZTagButton.m in Sources */,
+				845D2664213FABBA00F32E16 /* LBXPermissionLocation.m in Sources */,
+				845D2669213FABBA00F32E16 /* LBXPermissionSetting.m in Sources */,
+				845D266A213FABBA00F32E16 /* NetReachability.m in Sources */,
 				194C77FD205A387E00329230 /* AdPageView.m in Sources */,
 				19DB8AE6205B92B100420A51 /* HomeViewController.m in Sources */,
-				190D8EC720A44BF600AB017E /* PhotoBrowserView.m in Sources */,
 				19994178205F99B400E19D86 /* RootTableViewController.m in Sources */,
 				845D2642213F828700F32E16 /* YZTagList.m in Sources */,
+				845D265F213FABBA00F32E16 /* LBXPermissionCalendar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

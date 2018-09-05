@@ -25,7 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor =KWhiteColor;
+    self.view.backgroundColor = [UIColor whiteColor];
     //是否显示返回按钮
     self.isShowLiftBack = YES;
     //默认导航栏样式：黑字

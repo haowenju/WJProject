@@ -22,10 +22,10 @@
 
 // 工具类
 #import "WJFileManager.h"
+#import "LBXPermission.h"
 
 // 第三方
 #import <CYLTabBarController.h>
-#import <MBProgressHUD.h>
 #import "MBProgressHUD+XY.h"
 #import <YYKit.h>
 #import <MJRefresh.h>

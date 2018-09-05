@@ -145,7 +145,7 @@
 - (void)badgePointWithIndex:(NSInteger)index isShow:(BOOL)show {
     UIViewController *viewController = self.viewControllers[index];
     // 小红点
-    UIView *tabBadgePointView0 = [UIView cyl_tabBadgePointViewWithClolor:KRedColor radius:4.5];
+    UIView *tabBadgePointView0 = [UIView cyl_tabBadgePointViewWithClolor:[UIColor redColor] radius:4.5];
     [self.tabBarItem.cyl_tabButton cyl_setTabBadgePointView:tabBadgePointView0];
     if (show) {
         [viewController cyl_showTabBadgePoint];
