@@ -54,6 +54,8 @@
 		19DB8AFE205B949E00420A51 /* tab_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19DB8AFB205B949D00420A51 /* tab_bar@2x.png */; };
 		19DB8AFF205B949E00420A51 /* tab_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 19DB8AFC205B949E00420A51 /* tab_bar.png */; };
 		845D263B213E69C900F32E16 /* UIView+Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D263A213E69C900F32E16 /* UIView+Show.m */; };
+		845D2641213F828700F32E16 /* YZTagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D263E213F828700F32E16 /* YZTagButton.m */; };
+		845D2642213F828700F32E16 /* YZTagList.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D2640213F828700F32E16 /* YZTagList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -136,6 +138,10 @@
 		3BF3061D01CDB7671966E57A /* libPods-WJProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WJProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845D2639213E69C900F32E16 /* UIView+Show.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Show.h"; sourceTree = "<group>"; };
 		845D263A213E69C900F32E16 /* UIView+Show.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Show.m"; sourceTree = "<group>"; };
+		845D263D213F828700F32E16 /* YZTagButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTagButton.h; sourceTree = "<group>"; };
+		845D263E213F828700F32E16 /* YZTagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTagButton.m; sourceTree = "<group>"; };
+		845D263F213F828700F32E16 /* YZTagList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTagList.h; sourceTree = "<group>"; };
+		845D2640213F828700F32E16 /* YZTagList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTagList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +272,7 @@
 		194C77E8205A0EF100329230 /* ThridParty */ = {
 			isa = PBXGroup;
 			children = (
+				845D263C213F828700F32E16 /* YZTagList */,
 			);
 			path = ThridParty;
 			sourceTree = "<group>";
@@ -417,6 +424,17 @@
 				845D263A213E69C900F32E16 /* UIView+Show.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		845D263C213F828700F32E16 /* YZTagList */ = {
+			isa = PBXGroup;
+			children = (
+				845D263D213F828700F32E16 /* YZTagButton.h */,
+				845D263E213F828700F32E16 /* YZTagButton.m */,
+				845D263F213F828700F32E16 /* YZTagList.h */,
+				845D2640213F828700F32E16 /* YZTagList.m */,
+			);
+			path = YZTagList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -572,10 +590,12 @@
 				1999417B2060B17100E19D86 /* SecondViewController.m in Sources */,
 				19DB8AE0205B5DD000420A51 /* MBProgressHUD+XY.m in Sources */,
 				19DB8ADC205B5BCC00420A51 /* IMManager.m in Sources */,
+				845D2641213F828700F32E16 /* YZTagButton.m in Sources */,
 				194C77FD205A387E00329230 /* AdPageView.m in Sources */,
 				19DB8AE6205B92B100420A51 /* HomeViewController.m in Sources */,
 				190D8EC720A44BF600AB017E /* PhotoBrowserView.m in Sources */,
 				19994178205F99B400E19D86 /* RootTableViewController.m in Sources */,
+				845D2642213F828700F32E16 /* YZTagList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

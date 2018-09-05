@@ -30,6 +30,7 @@ pod 'YYKit'
 
 # 数据库
 pod 'FMDB'
+pod 'BGFMDB'
 
 # 无限轮播
 pod 'SDCycleScrollView'
