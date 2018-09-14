@@ -67,6 +67,12 @@
 		845D2668213FABBA00F32E16 /* LBXPermissionReminders.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D2659213FABBA00F32E16 /* LBXPermissionReminders.m */; };
 		845D2669213FABBA00F32E16 /* LBXPermissionSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D265B213FABBA00F32E16 /* LBXPermissionSetting.m */; };
 		845D266A213FABBA00F32E16 /* NetReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D265D213FABBA00F32E16 /* NetReachability.m */; };
+		84E4FCE5214B5DE700D45FE5 /* CustomIOSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4FCE4214B5DE700D45FE5 /* CustomIOSAlertView.m */; };
+		84E4FCE8214B5EAA00D45FE5 /* UIViewController+AlertViewAndActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4FCE6214B5EAA00D45FE5 /* UIViewController+AlertViewAndActionSheet.m */; };
+		84E4FCEF214B60A900D45FE5 /* CommonSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4FCEE214B60A900D45FE5 /* CommonSettingCell.m */; };
+		84E4FCF6214B642100D45FE5 /* CommonSettingCellAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4FCF5214B642100D45FE5 /* CommonSettingCellAdapter.m */; };
+		84E4FCFC214B671000D45FE5 /* SomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4FCFB214B671000D45FE5 /* SomeModel.m */; };
+		84E4FD02214B684E00D45FE5 /* SomeModelAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4FD01214B684E00D45FE5 /* SomeModelAdapter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -175,6 +181,20 @@
 		845D265B213FABBA00F32E16 /* LBXPermissionSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXPermissionSetting.m; sourceTree = "<group>"; };
 		845D265C213FABBA00F32E16 /* NetReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetReachability.h; sourceTree = "<group>"; };
 		845D265D213FABBA00F32E16 /* NetReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetReachability.m; sourceTree = "<group>"; };
+		84E4FCE3214B5DE700D45FE5 /* CustomIOSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIOSAlertView.h; sourceTree = "<group>"; };
+		84E4FCE4214B5DE700D45FE5 /* CustomIOSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIOSAlertView.m; sourceTree = "<group>"; };
+		84E4FCE6214B5EAA00D45FE5 /* UIViewController+AlertViewAndActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertViewAndActionSheet.m"; sourceTree = "<group>"; };
+		84E4FCE7214B5EAA00D45FE5 /* UIViewController+AlertViewAndActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertViewAndActionSheet.h"; sourceTree = "<group>"; };
+		84E4FCED214B60A900D45FE5 /* CommonSettingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonSettingCell.h; sourceTree = "<group>"; };
+		84E4FCEE214B60A900D45FE5 /* CommonSettingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonSettingCell.m; sourceTree = "<group>"; };
+		84E4FCF4214B642100D45FE5 /* CommonSettingCellAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonSettingCellAdapter.h; sourceTree = "<group>"; };
+		84E4FCF5214B642100D45FE5 /* CommonSettingCellAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonSettingCellAdapter.m; sourceTree = "<group>"; };
+		84E4FCF7214B64DA00D45FE5 /* CommonSettingCellAdapterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonSettingCellAdapterProtocol.h; sourceTree = "<group>"; };
+		84E4FCFA214B671000D45FE5 /* SomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeModel.h; sourceTree = "<group>"; };
+		84E4FCFB214B671000D45FE5 /* SomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeModel.m; sourceTree = "<group>"; };
+		84E4FD00214B684E00D45FE5 /* SomeModelAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeModelAdapter.h; sourceTree = "<group>"; };
+		84E4FD01214B684E00D45FE5 /* SomeModelAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomeModelAdapter.m; sourceTree = "<group>"; };
+		84E4FD05214B692C00D45FE5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +252,7 @@
 		194C77CD205A0E2B00329230 /* WJProject */ = {
 			isa = PBXGroup;
 			children = (
+				84E4FCEA214B606B00D45FE5 /* Common */,
 				194C77E5205A0EF100329230 /* AppDelegate */,
 				194C77EA205A0EF200329230 /* Modules */,
 				194C77E6205A0EF100329230 /* Manager */,
@@ -249,6 +270,7 @@
 		194C77E4205A0EF100329230 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				84E4FCE9214B5FE900D45FE5 /* View */,
 				19DB8ABE205A605600420A51 /* ViewController */,
 			);
 			path = Base;
@@ -294,6 +316,7 @@
 		194C77E8205A0EF100329230 /* ThridParty */ = {
 			isa = PBXGroup;
 			children = (
+				84E4FCE2214B5DE700D45FE5 /* CustomAlert */,
 				845D263C213F828700F32E16 /* YZTagList */,
 			);
 			path = ThridParty;
@@ -442,6 +465,8 @@
 		845D2638213E699400F32E16 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				84E4FCE7214B5EAA00D45FE5 /* UIViewController+AlertViewAndActionSheet.h */,
+				84E4FCE6214B5EAA00D45FE5 /* UIViewController+AlertViewAndActionSheet.m */,
 				845D2639213E69C900F32E16 /* UIView+Show.h */,
 				845D263A213E69C900F32E16 /* UIView+Show.m */,
 			);
@@ -490,6 +515,63 @@
 				845D265D213FABBA00F32E16 /* NetReachability.m */,
 			);
 			path = LBXPermissions;
+			sourceTree = "<group>";
+		};
+		84E4FCE2214B5DE700D45FE5 /* CustomAlert */ = {
+			isa = PBXGroup;
+			children = (
+				84E4FCE3214B5DE700D45FE5 /* CustomIOSAlertView.h */,
+				84E4FCE4214B5DE700D45FE5 /* CustomIOSAlertView.m */,
+			);
+			path = CustomAlert;
+			sourceTree = "<group>";
+		};
+		84E4FCE9214B5FE900D45FE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84E4FCEA214B606B00D45FE5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				84E4FCEB214B608600D45FE5 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		84E4FCEB214B608600D45FE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84E4FCF8214B65B600D45FE5 /* SettingCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84E4FCF8214B65B600D45FE5 /* SettingCell */ = {
+			isa = PBXGroup;
+			children = (
+				84E4FCF9214B66F700D45FE5 /* demo */,
+				84E4FCED214B60A900D45FE5 /* CommonSettingCell.h */,
+				84E4FCEE214B60A900D45FE5 /* CommonSettingCell.m */,
+				84E4FCF4214B642100D45FE5 /* CommonSettingCellAdapter.h */,
+				84E4FCF5214B642100D45FE5 /* CommonSettingCellAdapter.m */,
+				84E4FCF7214B64DA00D45FE5 /* CommonSettingCellAdapterProtocol.h */,
+			);
+			path = SettingCell;
+			sourceTree = "<group>";
+		};
+		84E4FCF9214B66F700D45FE5 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				84E4FCFA214B671000D45FE5 /* SomeModel.h */,
+				84E4FCFB214B671000D45FE5 /* SomeModel.m */,
+				84E4FD00214B684E00D45FE5 /* SomeModelAdapter.h */,
+				84E4FD01214B684E00D45FE5 /* SomeModelAdapter.m */,
+				84E4FD05214B692C00D45FE5 /* README.md */,
+			);
+			path = demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -633,11 +715,15 @@
 				190D8EC020A4387000AB017E /* LMJIntroductoryPagesView.m in Sources */,
 				845D2668213FABBA00F32E16 /* LBXPermissionReminders.m in Sources */,
 				19DB8AC4205A635F00420A51 /* RootViewController.m in Sources */,
+				84E4FCEF214B60A900D45FE5 /* CommonSettingCell.m in Sources */,
 				194C77F6205A124200329230 /* AppDelegate+AppService.m in Sources */,
+				84E4FCE8214B5EAA00D45FE5 /* UIViewController+AlertViewAndActionSheet.m in Sources */,
 				194C77DE205A0E2B00329230 /* main.m in Sources */,
+				84E4FCFC214B671000D45FE5 /* SomeModel.m in Sources */,
 				845D2661213FABBA00F32E16 /* LBXPermissionContacts.m in Sources */,
 				845D265E213FABBA00F32E16 /* LBXPermission.m in Sources */,
 				845D263B213E69C900F32E16 /* UIView+Show.m in Sources */,
+				84E4FD02214B684E00D45FE5 /* SomeModelAdapter.m in Sources */,
 				19994175205F500600E19D86 /* FirstViewController.m in Sources */,
 				845D2660213FABBA00F32E16 /* LBXPermissionCamera.m in Sources */,
 				19249C9620688E1200A3D1FA /* JSHandler.m in Sources */,
@@ -659,7 +745,9 @@
 				845D266A213FABBA00F32E16 /* NetReachability.m in Sources */,
 				194C77FD205A387E00329230 /* AdPageView.m in Sources */,
 				19DB8AE6205B92B100420A51 /* HomeViewController.m in Sources */,
+				84E4FCE5214B5DE700D45FE5 /* CustomIOSAlertView.m in Sources */,
 				19994178205F99B400E19D86 /* RootTableViewController.m in Sources */,
+				84E4FCF6214B642100D45FE5 /* CommonSettingCellAdapter.m in Sources */,
 				845D2642213F828700F32E16 /* YZTagList.m in Sources */,
 				845D265F213FABBA00F32E16 /* LBXPermissionCalendar.m in Sources */,
 			);
