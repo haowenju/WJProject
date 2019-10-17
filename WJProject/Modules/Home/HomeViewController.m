@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"首页";
-    NSLog(@"3333");
+    NSLog(@"5555");
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 50, 50)];
     button.backgroundColor = [UIColor redColor];
     [button addTarget:self action:@selector(PushAction) forControlEvents:(UIControlEventTouchUpInside)];
