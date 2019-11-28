@@ -6,8 +6,8 @@
 //  Copyright © 2018年 wenju hao. All rights reserved.
 //
 
-#import "RootWebViewController.h"
+#import "GZBaseWebVC.h"
 
-@interface WebViewController : RootWebViewController
+@interface WebViewController : GZBaseWebVC
 
 @end

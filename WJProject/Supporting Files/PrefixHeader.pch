@@ -13,19 +13,11 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 // 全局宏
-#import "UtilsMacros.h"
-#import "UserDefaultsMacros.h"
-#import "CommonMacros.h"
-
-// 类目
-#import "UIView+Show.h"
-
-// 工具类
-#import "WJFileManager.h"
-#import "LBXPermission.h"
+#import "GZGlobalMacros.h"
+#import "GZGlobalConst.h"
+#import "GZGlobalConstApi.h"
 
 // 第三方
-#import <CYLTabBarController.h>
 #import "MBProgressHUD+XY.h"
 #import <YYKit.h>
 #import <MJRefresh.h>

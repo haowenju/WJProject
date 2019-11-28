@@ -1,9 +1,6 @@
 platform :ios, '8.0'
 target 'WJProject' do
 
-# tabbar
-pod 'CYLTabBarController'
-
 # 下拉刷新上拉加载
 pod 'MJRefresh'
 

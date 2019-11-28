@@ -6,8 +6,8 @@
 //  Copyright © 2018年 wenju hao. All rights reserved.
 //
 
-#import "RootViewController.h"
+#import "GZBaseVC.h"
 
-@interface HomeViewController : RootViewController
+@interface HomeViewController : GZBaseVC
 
 @end

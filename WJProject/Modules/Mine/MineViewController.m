@@ -7,7 +7,6 @@
 //
 
 #import "MineViewController.h"
-#import "SecondViewController.h"
 @interface MineViewController ()
 
 @end
@@ -32,9 +31,7 @@
 }
 
 - (void)PushAction {
-    SecondViewController *vc = [[SecondViewController alloc] init];
     
-    [self.navigationController pushViewController:vc animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

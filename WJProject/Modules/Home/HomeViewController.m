@@ -9,6 +9,7 @@
 #import "HomeViewController.h"
 #import "FirstViewController.h"
 #import "WebViewController.h"
+#import "FWCouponsCenterCycleView.h"
 @interface HomeViewController ()
 
 @end
@@ -17,7 +18,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"首页";
     NSLog(@"5555");
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 50, 50)];
     button.backgroundColor = [UIColor redColor];
@@ -28,6 +28,7 @@
     button1.backgroundColor = [UIColor greenColor];
     [button1 addTarget:self action:@selector(PushAction1) forControlEvents:(UIControlEventTouchUpInside)];
     [self.view addSubview:button1];
+    self.navBar.title = @"首页首页首页首页首页首页首页首页首页首页首页";
 }
 
 - (void)PushAction {

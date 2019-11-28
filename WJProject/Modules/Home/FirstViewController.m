@@ -16,8 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"首页进来的";
     self.StatusBarStyle = UIStatusBarStyleLightContent;
+    self.navBar.title = @"首页首页首页首页首页首页首页首页首页首页首页";
 }
 
 - (void)didReceiveMemoryWarning {
