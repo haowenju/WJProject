@@ -18,6 +18,7 @@
     [super viewDidLoad];
     self.StatusBarStyle = UIStatusBarStyleLightContent;
     self.navBar.title = @"首页首页首页首页首页首页首页首页首页首页首页";
+    NSLog(@"123");
 }
 
 - (void)didReceiveMemoryWarning {
