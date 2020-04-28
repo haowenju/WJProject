@@ -28,7 +28,7 @@
     button1.backgroundColor = [UIColor greenColor];
     [button1 addTarget:self action:@selector(PushAction1) forControlEvents:(UIControlEventTouchUpInside)];
     [self.view addSubview:button1];
-    self.navBar.title = @"首页111";
+    self.navBar.title = @"首页222";
 }
 
 - (void)PushAction {
@@ -38,8 +38,8 @@
 }
 
 - (void)PushAction1 {
-    WebViewController *vc = [[WebViewController alloc] initWithUrl:@"https://www.jianshu.com/p/6ba2507445e4"];
-     [self.navigationController pushViewController:vc animated:YES];
+//    WebViewController *vc = [[WebViewController alloc] initWithUrl:@"https://www.jianshu.com/p/6ba2507445e4"];
+//     [self.navigationController pushViewController:vc animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
