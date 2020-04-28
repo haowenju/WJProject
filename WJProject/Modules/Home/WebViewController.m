@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"wkwebview";
+    NSArray *arr = @[@"1",@"2"];
     // Do any additional setup after loading the view.
 }
 
