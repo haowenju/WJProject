@@ -35,6 +35,7 @@
     FirstViewController *vc = [[FirstViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
     NSLog(@"111");
+    NSLog(@"222");
 }
 
 - (void)PushAction1 {
