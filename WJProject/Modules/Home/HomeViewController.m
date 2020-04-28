@@ -28,12 +28,13 @@
     button1.backgroundColor = [UIColor greenColor];
     [button1 addTarget:self action:@selector(PushAction1) forControlEvents:(UIControlEventTouchUpInside)];
     [self.view addSubview:button1];
-    self.navBar.title = @"首页11";
+    self.navBar.title = @"首页111";
 }
 
 - (void)PushAction {
     FirstViewController *vc = [[FirstViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
+    NSLog(@"111");
 }
 
 - (void)PushAction1 {
